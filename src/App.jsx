@@ -78,23 +78,23 @@ export default function App() {
       <Navbar onSectionChange={handleSetActiveSection} activeSection={activeSection} />
       
       <div className="flex-grow">
-        <section id="home" ref={sectionRefs.home} className="pt-24 min-h-screen">
+        <section id="home" ref={sectionRefs.home} className="pt-16 md:pt-24 min-h-screen">
           <HeroSection onSectionChange={handleSetActiveSection} />
         </section>
         
-        <section id="about" ref={sectionRefs.about} className="py-24 min-h-screen">
+        <section id="about" ref={sectionRefs.about} className="py-16 md:py-24 min-h-[90vh] md:min-h-screen">
           <About />
         </section>
         
-        <section id="services" ref={sectionRefs.services} className="py-24 min-h-screen">
+        <section id="services" ref={sectionRefs.services} className="py-16 md:py-24 min-h-[90vh] md:min-h-screen">
           <Services />
         </section>
         
-        <section id="clients" ref={sectionRefs.clients} className="py-24 min-h-screen">
+        <section id="clients" ref={sectionRefs.clients} className="py-16 md:py-24 min-h-[90vh] md:min-h-screen">
           <Clients />
         </section>
         
-        <section id="contact" ref={sectionRefs.contact} className="py-24 pb-36 min-h-screen">
+        <section id="contact" ref={sectionRefs.contact} className="py-16 md:py-24 pb-24 md:pb-36 min-h-[90vh] md:min-h-screen">
           <Contact />
         </section>
       </div>

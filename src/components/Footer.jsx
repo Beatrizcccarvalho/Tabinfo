@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-black text-white py-6 px-4 flex justify-between items-center z-40 border-t border-gray-800 mt-12">
+    <footer className="relative w-full bg-black text-white py-4 md:py-6 px-4 flex flex-col md:flex-row justify-between items-center z-40 border-t border-gray-800 mt-8 md:mt-12 gap-4 md:gap-0">
       <div className="flex items-center">
-        <img src="/selo platinum.png" alt="Selo Platinum" className="h-16" />
+        <img src="/selo platinum.png" alt="Selo Platinum" className="h-12 md:h-16" />
       </div>
       
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-6">
         <a 
           href="https://www.facebook.com/tabinfotecnologia" 
           target="_blank" 
