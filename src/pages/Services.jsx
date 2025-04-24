@@ -49,10 +49,6 @@ export default function Services() {
         <p className="mb-4 text-base md:text-lg">
           Independentemente do tamanho ou complexidade do projeto, estamos comprometidos em oferecer soluções de alta qualidade que superam as expectativas e impulsionam resultados tangíveis.
         </p>
-        
-        <p className="mt-6 md:mt-8 text-base md:text-lg font-bold">
-          Explore nossos projetos abaixo para ter uma ideia do nosso trabalho e entre em contato para começarmos a transformar sua visão em realidade digital.
-        </p>
       </div>
     </section>
   );

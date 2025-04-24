@@ -26,7 +26,7 @@ export default function Navbar({ onSectionChange, activeSection }) {
         className="flex items-center gap-2"
         onClick={(e) => handleNavClick(e, 'home')}
       >
-        <img src="/Logo Tabinfo 4.png" alt="Logo TabInfo" className="w-24 md:w-32" />
+        <img src="/Logo v1.png" alt="Logo TabInfo" className="w-24 md:w-32" />
       </a>
       
       {/* Mobile hamburger button */}
